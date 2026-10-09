@@ -1,0 +1,6 @@
+{
+  "name": "Sanctuary Hotel Aberdeen",
+  "description": "Experience five-star luxury, comfort, and exceptional hospitality at Sanctuary Hotel, Caroline Pl, Aberdeen AB25 2TH.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

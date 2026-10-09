@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #140c29;
+    color: #f3f4f6;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Subtle gold shimmer effect for high-end luxury buttons */
+.btn-gold {
+  background: linear-gradient(135deg, #d4af37 0%, #edd98d 50%, #c49d28 100%);
+  color: #1b1035;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #e3c150 0%, #f7e6a7 50%, #d4af37 100%);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.35);
+  transform: translateY(-1px);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+}
+
